@@ -36,8 +36,8 @@ Then, I discarded one hot encoding; intead, I used label encoding. Random Forest
 
 |     Model     |     Version 1     | Version 2|
 |--------------------|--------------|--------------------|
-|Random Forest | ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/rf_cm.png)| bb|
-|XGBoost | cc | dd|
+|Random Forest | ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/rf_cm.png)| bb|
+|XGBoost | ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/xgb_cm.png) | dd|
 
 I believe that dataset has somewhat not cohesive and consistent in terms of mapping with independent vairables and target variable. When performing data exploration (see [Actual Code](https://github.com/kyawkhaung/hr-promotion/blob/main/Data%20Exploration.ipynb)), observed that there is no strong correlation among independent variables and target variable.
 
