@@ -1,4 +1,5 @@
 # HR Analytics - Will you be nomiated for promotion this year?
+![](https://github.com/kyawkhaung/hr-promotion/blob/main/images/hr_promotion_image.png)
 
 This is binary classification problem that [Analytics Vidhya](https://datahack.analyticsvidhya.com/) hosted for competition in 2018.
 
