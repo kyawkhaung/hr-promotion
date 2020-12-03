@@ -39,7 +39,13 @@ I believe that dataset has somewhat not cohesive in terms of mapping with indepe
 Below table summarizes the numberical variables correlation.
 
 ![Correlation Table](https://github.com/kyawkhaung/hr-promotion/blob/main/correlation_table.png)
-correlation between "award_won?" and "is_promoted" is 0.19 <br/> 
-correlation between "avg_training_score" and "is_promoted" is 0.18<br/>
-correlation between "KPIs_met>80%" and "is_promoted" is 0.22<br/>
-correlation between "previous_year_rating" and "is_promoted" is 0.15<br/>
+#### Correlation with respect to "is_promoted"
+- correlation between "award_won?" and "is_promoted" is 0.19 <br/> 
+- correlation between "avg_training_score" and "is_promoted" is 0.18<br/>
+- correlation between "KPIs_met>80%" and "is_promoted" is 0.22<br/>
+- correlation between "previous_year_rating" and "is_promoted" is 0.15<br/>
+
+#### Correlation among Independent Features
+- correlation between "award_won?" and "avg_training_score" is 0.072 <br/> 
+- correlation between "KPIs_met>80%" and "previous_year_rating" is 0.351<br/>
+- correlation between "avg_training_score" and "previous_year_rating" is 0.075<br/>
