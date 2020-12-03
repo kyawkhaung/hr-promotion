@@ -34,10 +34,10 @@ As feature engineering, I have used one hot encoding for independent variables -
 
 Then, I discarded one hot encoding; intead, I used label encoding. Random Forest and XGboost seems to handle pretty good with my input data and F1 score went up to 0.49. I have used Random Forest hyperparameter tuning and Xgboost hyperparamter tuning. Observed that XGboost has shown better prerformance at predicting target values. I also tried with ensembeling method of stacking these two models, which still can't perform better than xGboost alone. 
 
-|     Model     |     Version 1     | Version 2|
-|--------------------|--------------|--------------------|
-|Random Forest | ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/rf_cm.png)| bb|
-|XGBoost | ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/xgb_cm.png) | dd|
+|     Model     | Final F1 Score |     Before Hyperparameter Tuning     | After Hyperparameter Tuning|
+|-------------------|---------------|--------------|--------------------|
+|Random Forest |0.5 | ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/rf_cm.png)| ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/rf_cm_hp.png)|
+|XGBoost |0.4} ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/xgb_cm.png) | ![Random Forest](https://github.com/kyawkhaung/hr-promotion/blob/main/images/xgb_cm_hp.png)|
 
 I believe that dataset has somewhat not cohesive and consistent in terms of mapping with independent vairables and target variable. When performing data exploration (see [Actual Code](https://github.com/kyawkhaung/hr-promotion/blob/main/Data%20Exploration.ipynb)), observed that there is no strong correlation among independent variables and target variable.
 
